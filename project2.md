@@ -50,7 +50,7 @@ After this, I tried to access it locally in our Ubuntu shell using `curl http://
  ![install php upper part](./images/13a.PNG) 
  ![install php down part](./images/13b.PNG)
 
- ## Step 4- Configuring php to use nginx processor
+ ## Step 4- Configuring Nginx to use PHP processor
  1. I ran `sudo mkdir /var/www/projectLEMP` to Create the root web directory for my_domain. I also assigned ownership of the directory with the $USER environment variable by running `sudo chown -R $USER:$USER /var/www/projectLEMP` and below is the output.
  ![make a directory](./images/14.PNG)
 
